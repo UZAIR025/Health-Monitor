@@ -21,13 +21,17 @@ class NamePage extends StatelessWidget {
               controller: firstNameController,
               decoration: const InputDecoration(labelText: 'First Name'),
             ),
-            SizedBox(height: 40,),
+            SizedBox(
+              height: 40,
+            ),
             TextField(
               controller: lastNameController,
               decoration: const InputDecoration(labelText: 'Last Name'),
             ),
             const SizedBox(height: 20),
-            SizedBox(height: 40,),
+            SizedBox(
+              height: 40,
+            ),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(

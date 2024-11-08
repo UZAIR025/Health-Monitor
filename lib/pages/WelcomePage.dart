@@ -34,7 +34,7 @@ class _WelcomePageState extends State<WelcomePage> {
               style: TextStyle(
                 fontSize: 70.0,
                 color: Colors.deepOrange,
-                 fontStyle: FontStyle.italic,
+                fontStyle: FontStyle.italic,
               ),
             ),
             const SizedBox(height: 220),
@@ -64,7 +64,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 );
               },
               color: Colors.white, // Customize button color
-              borderRadius: 16.0,   // Customize border radius
+              borderRadius: 16.0, // Customize border radius
               textStyle: const TextStyle(fontSize: 18), // Customize text style
             ),
           ],

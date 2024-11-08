@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:glucoo/pages/HomePage.dart';
 import 'package:glucoo/pages/WelcomePage.dart';
 
 void main() {
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const WelcomePage(),
+      home: const Welcomepage(),
     );
   }
 }
